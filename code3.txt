@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    float distance;float meters,feet,inches,centi;
+    scanf("%f",&distance);
+    meters=distance*1000;
+    feet=distance*3280.84;
+    inches=distance*39370.1;
+    centi=distance*100000;
+    printf("%.2f m \n",meters);
+    printf("%.2f ft \n",feet);
+    printf("%.2f in \n",inches);
+    printf("%.2f cm\n",centi);
+     return 0;
+}
